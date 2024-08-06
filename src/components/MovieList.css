@@ -1,0 +1,33 @@
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.movie-item {
+  text-decoration: none; /* Remove underline from links */
+}
+
+.movie-card {
+  background-color: #1c1c1c; /* Dark gray background for cards */
+  border: 1px solid #333333;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px; /* Adjust width as needed */
+  color: #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center; /* Center align text */
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.movie-card h3 {
+  font-size: 1em;
+  margin: 10px 0 5px 0;
+  color: #ff0000; /* Bright red for titles */
+}
